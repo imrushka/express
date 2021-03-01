@@ -20,6 +20,7 @@ class DBSample(QMainWindow):
 
     def select_data(self):
 
+
         # Получим результат запроса,
         # который ввели в текстовое поле
         res = self.connection.cursor().execute("SELECT * FROM COFFEE").fetchall()
